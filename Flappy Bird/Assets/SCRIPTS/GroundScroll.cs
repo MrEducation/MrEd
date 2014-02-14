@@ -12,9 +12,9 @@ public class GroundScroll : MonoBehaviour {
 		float movement = Speed * Time.deltaTime;
 		transform.Translate (Vector3.left * movement);
 
-		if (transform.position.x < -2.88) 
+		if (transform.position.x < -2.861909F) 
 		{
-			transform.position = new Vector3(2.89f, transform.position.y, transform.position.z);
+			transform.position = new Vector3(2.861909f, transform.position.y, transform.position.z);
 		}
 
 
